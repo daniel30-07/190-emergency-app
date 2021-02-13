@@ -6,6 +6,7 @@ import Login from './screens/Login'
 import GenericContainer from './components/GenericContainer'
 import PoliceOrUser from './screens/PoliceOrUser'
 import SignUp from './screens/SignUp'
+import UserMenu from './screens/UserMenu'
 
 const PoliceWithGenericContainer = GenericContainer(Police)
 const UserWithGenericContainer = GenericContainer(User)
@@ -39,7 +40,8 @@ export default class App extends Component {
       return <PoliceWithGenericContainer token={this.state.token} />
     }
     if (this.state.isUser) {
-      return <UserWithGenericContainer token={this.state.token} />
+      return <UserMenu />
+      //return <UserWithGenericContainer token={this.state.token} />
     }
     return <PoliceOrUser handleChange={this.handleChange} />
   }

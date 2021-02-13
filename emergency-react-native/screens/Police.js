@@ -74,7 +74,8 @@ export default class Police extends Component {
   async lookForUsers() {
     if (this.state.lookingForUsers) {
       this.setState({
-        lookingForUsers: false
+        lookingForUsers: false,
+        buttonText: 'VIATURA DISPONÍVEL 🚓'
       });
       return;
     }
