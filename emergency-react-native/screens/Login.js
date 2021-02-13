@@ -10,8 +10,8 @@ export default class Login extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            email: '',
-            password: '',
+            email: 'daniel@gmail.com',
+            password: '12345',
             errorMessage: ''
         }
         this.handleChange = this.handleChange.bind(this)
