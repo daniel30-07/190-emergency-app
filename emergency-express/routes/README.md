@@ -1,6 +1,8 @@
-![Screenshot](./images/readme/Login.png | width=200 "Screenshot")
+# Emergency Express Backend for connecting to Mongodb and routes.
+
 # WeTaxi
 A React-Native App that links Taxi Drivers and Passengers.
+See more detains on repository at 
 
 ## Functionalities
 * Signup / Login / Authentication
@@ -26,13 +28,13 @@ Type a location on the search box and the app will determine and trace the route
 ### Prerequisites
 To run this project in the development mode, you'll need to have a basic environment to run a React-Native App, that can be found [here](https://reactnative.dev/docs/environment-setup).
 
-Also, you'll need to the server running locally on your machine with the mock data. You can find the server and all the instructions to start the server [here](https://github.com/danielbcarvalho/taxi-app-socket.io).
+Also, you'll need to the server running locally on your machine with the mock data. You can find the server and all the instructions to start the server [here](https://github.com/daniel30-07/taxi-app-socket.io).
 
 ### Installing
 Cloning the Repository
 
 ```
-$ git clone https://github.com/danielbcarvalho/taxi-app-react-native.git
+$ git clone https://github.com/daniel30-07/taxi-app-react-native.git
 ```
 
 ```
