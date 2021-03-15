@@ -31,7 +31,7 @@ $ git clone https://github.com/danielbcarvalho/190-emergency-app.git
 ```
 
 ```
-$ cd react-native-emergency
+$ cd react-native-emergency-app
 ```
 
 ```

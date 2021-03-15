@@ -8,7 +8,7 @@ Socket.io server to connect User and Police Officer in real time.
 From terminal install dependencies
 
 ```
-$ cd emergency-express 
+$ cd socket.io-server
 ```
 
 ```

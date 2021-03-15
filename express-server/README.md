@@ -8,7 +8,7 @@ Backend server for managing the database (Mongodb) and auth of the app.
 From terminal install dependencies
 
 ```
-$ cd emergency-express 
+$ cd express-server 
 ```
 
 ```
